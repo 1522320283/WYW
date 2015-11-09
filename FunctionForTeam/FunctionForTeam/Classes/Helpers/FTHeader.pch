@@ -1,0 +1,23 @@
+//
+//  FTHeader.pch
+//  FunctionForTeam
+//
+//  Created by 王伯南 on 15/11/9.
+//  Copyright © 2015年 王伯南. All rights reserved.
+//
+
+#ifndef FTHeader_pch
+#define FTHeader_pch
+
+#import "HomePageController.h"
+#import "MusicPlayerController.h"
+#import "ReadingController.h"
+#import "JokeController.h"
+#import "GameController.h"
+#import "ChatController.h"
+
+#import "BROptionsButton.h"
+#import "MainViewController.h"
+#import "MiddleViewController.h"
+
+#endif /* FTHeader_pch */
