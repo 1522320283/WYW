@@ -13,10 +13,21 @@
 @property (nonatomic, strong) BROptionsButton *brOptionsButton;
 
 @property (nonatomic, strong) MiddleViewController *middleVC;
+
 @end
 
 @implementation MainViewController
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"header"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStyleDone target:self action:@selector(presentLeftMenuViewController:)];
+        
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
 

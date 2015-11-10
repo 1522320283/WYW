@@ -27,6 +27,8 @@
 
         self.view.backgroundColor = [UIColor blueColor];
         
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"header"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStyleDone target:self action:@selector(presentLeftMenuViewController:)];
+        
     }
     return self;
 }

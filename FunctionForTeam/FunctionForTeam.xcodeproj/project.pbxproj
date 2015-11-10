@@ -25,6 +25,11 @@
 		630158601BF0A0B2009368EB /* BROptionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301583A1BF0A0B2009368EB /* BROptionItem.m */; };
 		630158611BF0A0B2009368EB /* BROptionsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301583C1BF0A0B2009368EB /* BROptionsButton.m */; };
 		630158621BF0A0B2009368EB /* HomePageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301584B1BF0A0B2009368EB /* HomePageController.m */; };
+		6301587E1BF0C9AB009368EB /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 630158791BF0C9AB009368EB /* RECommonFunctions.m */; };
+		6301587F1BF0C9AB009368EB /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301587B1BF0C9AB009368EB /* RESideMenu.m */; };
+		630158801BF0C9AB009368EB /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6301587D1BF0C9AB009368EB /* UIViewController+RESideMenu.m */; };
+		630158861BF0CD3E009368EB /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 630158851BF0CD3E009368EB /* LeftViewController.m */; };
+		630158881BF0D14A009368EB /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 630158871BF0D14A009368EB /* header.png */; };
 		63FCB3D11BF0719D00B7E63B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FCB3D01BF0719D00B7E63B /* main.m */; };
 		63FCB3DD1BF0719D00B7E63B /* FunctionForTeam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63FCB3DB1BF0719D00B7E63B /* FunctionForTeam.xcdatamodeld */; };
 		63FCB3DF1BF0719D00B7E63B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63FCB3DE1BF0719D00B7E63B /* Assets.xcassets */; };
@@ -62,6 +67,15 @@
 		6301583D1BF0A0B2009368EB /* FTHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTHeader.pch; sourceTree = "<group>"; };
 		6301584A1BF0A0B2009368EB /* HomePageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageController.h; sourceTree = "<group>"; };
 		6301584B1BF0A0B2009368EB /* HomePageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageController.m; sourceTree = "<group>"; };
+		630158781BF0C9AB009368EB /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		630158791BF0C9AB009368EB /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		6301587A1BF0C9AB009368EB /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		6301587B1BF0C9AB009368EB /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		6301587C1BF0C9AB009368EB /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		6301587D1BF0C9AB009368EB /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		630158841BF0CD3E009368EB /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		630158851BF0CD3E009368EB /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		630158871BF0D14A009368EB /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
 		63FCB3CC1BF0719D00B7E63B /* FunctionForTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionForTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FCB3D01BF0719D00B7E63B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63FCB3DC1BF0719D00B7E63B /* FunctionForTeam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FunctionForTeam.xcdatamodel; sourceTree = "<group>"; };
@@ -274,6 +288,8 @@
 				630158331BF0A0B2009368EB /* MainViewController.m */,
 				630158341BF0A0B2009368EB /* MiddleViewController.h */,
 				630158351BF0A0B2009368EB /* MiddleViewController.m */,
+				630158841BF0CD3E009368EB /* LeftViewController.h */,
+				630158851BF0CD3E009368EB /* LeftViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -288,7 +304,6 @@
 		630158371BF0A0B2009368EB /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				630158381BF0A0B2009368EB /* BROptionsButton */,
 				6301583D1BF0A0B2009368EB /* FTHeader.pch */,
 			);
 			path = Helpers;
@@ -302,7 +317,8 @@
 				6301583B1BF0A0B2009368EB /* BROptionsButton.h */,
 				6301583C1BF0A0B2009368EB /* BROptionsButton.m */,
 			);
-			path = BROptionsButton;
+			name = BROptionsButton;
+			path = ../Helpers/BROptionsButton;
 			sourceTree = "<group>";
 		};
 		6301583E1BF0A0B2009368EB /* HomePage */ = {
@@ -370,8 +386,24 @@
 		630158501BF0A0B2009368EB /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				630158771BF0C9AB009368EB /* RESideMenu */,
+				630158381BF0A0B2009368EB /* BROptionsButton */,
 			);
 			path = Vendors;
+			sourceTree = "<group>";
+		};
+		630158771BF0C9AB009368EB /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				630158871BF0D14A009368EB /* header.png */,
+				630158781BF0C9AB009368EB /* RECommonFunctions.h */,
+				630158791BF0C9AB009368EB /* RECommonFunctions.m */,
+				6301587A1BF0C9AB009368EB /* RESideMenu.h */,
+				6301587B1BF0C9AB009368EB /* RESideMenu.m */,
+				6301587C1BF0C9AB009368EB /* UIViewController+RESideMenu.h */,
+				6301587D1BF0C9AB009368EB /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
 			sourceTree = "<group>";
 		};
 		63FCB3C31BF0719D00B7E63B = {
@@ -476,6 +508,7 @@
 				630158541BF0A0B2009368EB /* happy.png in Resources */,
 				630158551BF0A0B2009368EB /* record.png in Resources */,
 				63FCB3DF1BF0719D00B7E63B /* Assets.xcassets in Resources */,
+				630158881BF0D14A009368EB /* header.png in Resources */,
 				630158571BF0A0B2009368EB /* read.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +521,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				630158601BF0A0B2009368EB /* BROptionItem.m in Sources */,
+				630158801BF0C9AB009368EB /* UIViewController+RESideMenu.m in Sources */,
 				63FCB3DD1BF0719D00B7E63B /* FunctionForTeam.xcdatamodeld in Sources */,
 				630158621BF0A0B2009368EB /* HomePageController.m in Sources */,
 				6301585D1BF0A0B2009368EB /* GameController.m in Sources */,
@@ -500,6 +534,9 @@
 				630158511BF0A0B2009368EB /* AppDelegate.m in Sources */,
 				630158591BF0A0B2009368EB /* ChatController.m in Sources */,
 				6301585F1BF0A0B2009368EB /* MiddleViewController.m in Sources */,
+				6301587F1BF0C9AB009368EB /* RESideMenu.m in Sources */,
+				630158861BF0CD3E009368EB /* LeftViewController.m in Sources */,
+				6301587E1BF0C9AB009368EB /* RECommonFunctions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

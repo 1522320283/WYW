@@ -14,6 +14,18 @@
 
 @implementation ChatController
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+        UIImage *image = [UIImage imageNamed:@"header"];
+        [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"header"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStyleDone target:self action:@selector(presentLeftMenuViewController:)];
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
